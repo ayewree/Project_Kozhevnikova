@@ -6,49 +6,59 @@
     <title>Онлайн-школа английского языка</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Курсы</a></li>
+    <header class="header">
+        <nav class="header__menu">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link" href="#">О нас</a></li>
+                <li  class="header__item"><a  class="header__link" href="#">Курсы</a></li>
             </ul>
         </nav>
-        <img>
-        <h1>Онлайн-школа английского языка</h1>
+        <div class="header__logo">
+            <img class="header__logo">
+            <h1 class="header__title">Онлайн-школа английского языка</h1>
+        </div>
+        <div class="header__search"></div>
         <div>Меню</div>
     </header>
-    <main>
-        <section>
-            <div>
-                <h2>Надпись</h2>
-                <a href="#" target="_blank">Let's start!</a>
+    <main class="main">
+        <section class="first-block">
+            <img class="first-block__img" src="" alt="">
+            <a class="first-block__link" href="#" target="_blank">Let's start!</a>
+            <!-- <hr> -->
+        </section>
+        <section class="info">
+            <div class="info__left-block">
+                <h2 class="info__title">Информация об онлайн-школе</h2>
+                <img class="info__img">
+                <p>Текст</p>
+            </div>
+            <div class="contacts">
+                <h2 class="contacts__title">Оставьте заявку</h2>
+                <form class="contacts__form" action=""></form>
+                <a class="contacts__link" href="#">Отправить</a>
             </div>
         </section>
-        <section>
-            <h3>Информация об онлайн-школе</h3>
-            <img>
-            <p>Текст</p>
-        </section>
-        <section>
-            <h3>Оставьте заявку</h3>
-            <a href="#">Отправить</a>
-        </section>
     </main>
-    <footer>
-        <ul>
-            <li><a href="#">Наши преподаватели</a></li>
-            <li><a href="#">Отзывы о нашей школе</a></li>
-            <li><a href="#">Стать репетитором</a></li>
-            <li><a href="#">Контакты</a></li>
-            <li><a href="#">Обратная связь</a></li>
-            <li><a href="#">Правовая информация</a></li>
+    <footer class="footer">
+        <ul class="footer__list">
+            <li class="footer__item"><a class="footer__link" href="#">Наши преподаватели</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Отзывы о нашей школе</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Стать репетитором</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Контакты</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Обратная связь</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Правовая информация</a></li>
         </ul>
-        <h4>Для связи с нами</h4>
-        <ul>
-            <li><a href="#">Почта</a></li>
-            <li><a href="#">Номер телефона</a></li>
-        </ul>
-        <h4>Социальные сети</h4>
+        <div class="footer__list">
+            <h3 class="footer__title">Для связи с нами</h3>
+            <ul class="footer__list">
+                <li class="footer__item"><a href="#">Почта</a></li>
+                <li class="footer__item"><a href="#">Номер телефона</a></li>
+            </ul>
+        </div>
+        <div class="footer__list">
+            <h3 class="footer__title">Социальные сети</h3>
+
+        </div>
     </footer>
 </body>
 </html>
